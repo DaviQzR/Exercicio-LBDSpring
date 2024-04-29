@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Fundo cinza claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o menu */
+#menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #526ba9; /* Azul para o fundo do menu */
+    font-size: 18px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font-size: 18px;
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: #526ba9; /* Mesmo azul para o fundo dos links */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#menu ul li a:hover {
+    background-color: #7f8fa6; /* Azul mais claro ao passar o mouse */
+}
+
+/* Estilos para botões */
+input[type=submit] {
+    border: none;
+    color: #fff;
+    background-color: #526ba9;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: #7f8fa6; /* Azul mais claro ao passar o mouse */
+}
+
+/* Estilos para campos de entrada */
+.input_data, .input_data_id, .input_data_date {
+    border: 2px solid #ccc; /* Cinza claro para a borda dos campos de entrada */
+    border-radius: 4px;
+    height: 40px;
+    font-size: 18px;
+    width: 300px;
+    padding: 5px;
+    transition: border-color 0.3s;
+}
+
+.input_data:focus, .input_data_id:focus, .input_data_date:focus {
+    border-color: #526ba9; /* Azul quando o campo está em foco */
+}
+
+/* Estilos para tabelas */
+.table_round {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.table_round th, .table_round td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table_round th {
+    background-color: #526ba9;
+    color: #fff;
+}
+
+/* Estilos para o título */
+.title {
+    font-size: 28px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o container */
+.container {
+    margin: auto;
+    width: 80%;
+    border: 7px solid #526ba9;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#botaoEspecial {
+    background-color: #ff0000; /* Vermelho */
+    color: #fff; /* Texto branco */
+}
+
+label {
+    font-size: 18px;
+    color: #526ba9; /* Mesma cor do azul usado nos links e botões */
+    margin-right: 10px;
+    display: inline-block; /* Para que as labels tenham a mesma disposição que os inputs */
+    margin-bottom: 5px; /* Adicionando um espaçamento abaixo das labels */
+}
+
+.input_data {
+    border: 2px solid #ccc; /* Cor da borda do input */
+    border-radius: 4px;
+    height: 40px;
+    font-size: 18px;
+    width: 300px;
+    padding: 5px;
+    transition: border-color 0.3s;
+}
